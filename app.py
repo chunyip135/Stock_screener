@@ -41,8 +41,7 @@ def input_data():
 def plot_graph(data,stock):
     # plot the closing price, returns, cum returns 
     fig, ax = plt.subplots(3,1,  sharex = True)
-    data.Close.plot(title = stock, ax = ax[0])
-    plt.ylabel("USD")
+    data.Close.plot(title = stock, ax = ax[0], ylabel = "USD")
     ax[0].grid()
 
     data.Returns.mul(100).plot(title = 'Returns', ax = ax[1], ylabel = '%')

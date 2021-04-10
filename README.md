@@ -14,3 +14,9 @@
 2. Including moving average reversal strategy
 3. Backtesting including initial capital specifying
 
+## To use the project: 
+1. Download the whole repository.
+  - app.py: main script for the whole app
+  - requirements.txt: python libraries required
+2. To run locally: 
+    <pre><code>streamlit run appy.py</code></pre>

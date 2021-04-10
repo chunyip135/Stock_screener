@@ -19,4 +19,4 @@
   - app.py: main script for the whole app
   - requirements.txt: python libraries required
 2. To run locally: 
-    <pre><code>streamlit run appy.py</code></pre>
+    <pre><code>streamlit run app.py</code></pre>
